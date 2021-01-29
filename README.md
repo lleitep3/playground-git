@@ -5,7 +5,7 @@ Playground GIT
   - Readme
   - Boas práticas de commit
     - Commit semântico
-
+    -
 
 ## Comandos
 
@@ -15,9 +15,15 @@ Playground GIT
 $ git init
 ```
 
+### adicionando um arquivo
+```shell
+$ git add readme.md
+```
 
-
-
+### efetivando uma alteração
+```shell
+$ git commit -m 'feat: add readme'
+```
 
 
 Gitlens - eamodio.gitlens
